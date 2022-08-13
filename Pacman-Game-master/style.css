@@ -1,0 +1,98 @@
+html, body{
+    display: flex;
+    font-size: 50px;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    color:aliceblue;
+    background-color:black;
+    
+}
+
+h1,h3{
+    margin: 0;
+    padding: 5px;
+    font-size: 72px;
+    background: -webkit-linear-gradient(90deg,white, rgb(100, 13, 89));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+.btn{
+    font-family: inherit;
+    margin: 10px;
+    font-size: .5rem;
+    padding: .5em 3em;
+    border: none;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg,white, rgb(100, 13, 89));
+}
+.active{
+    display: none;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 420px;
+    height: 420px;
+}
+
+.grid div{
+    width: 15px;
+    height: 15px;
+}
+
+.pac-dot {
+    background-color: black;
+    border: 5px solid white;
+    box-sizing: border-box;
+}
+
+.wall {
+    background-image: linear-gradient(45deg,white, rgb(100, 13, 89));
+}
+
+.power-pellet {
+    background-image: linear-gradient(60deg,teal, green);
+
+    border-radius: 7.5px;
+}
+
+.pacman {
+    background-color: pink;
+    border: none;
+    border-radius: 7.5px;
+}
+.squares{
+    background-color: blue;
+}
+.blinky {
+    background-image: linear-gradient(45deg,red, rgb(127, 252, 77));
+    border: none;
+    border-radius: 50%;
+}
+
+.pinky {
+    background-image: linear-gradient(45deg,rgb(192, 198, 255), rgb(19, 13, 100));
+    border: none;
+    border-radius: 50%;
+}
+
+.inky {
+    background-image: linear-gradient(45deg,blue, rgb(43, 198, 226));
+    border: none;
+    border-radius: 50%;
+}
+
+.clyde {
+    background-image: linear-gradient(45deg,red,orange);
+    border: none;
+    border-radius: 50%;
+}
+.scared-ghost{
+    background-image: linear-gradient(45deg,midnightblue, white);
+    ;
+    border: none;
+}
